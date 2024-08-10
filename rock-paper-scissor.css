@@ -1,0 +1,122 @@
+body {
+  font-family: Arial;
+  background-color: black;
+}
+.images {
+  background-color: transparent;
+  width: 80px;
+  border: none;
+}
+.rock-button,
+.paper-button,
+.scissors-button {
+  background-color: transparent;
+  border: solid white 3px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.title {
+  color: white;
+  font-size: 39px;
+  font-weight: bolder;
+  margin: 25px;
+  margin-bottom: 50px;
+}
+.display-result {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 25px;
+}
+.score-display {
+  color: white;
+  font-size: 30px;
+
+  margin: 25px;
+  margin-top: 40px;
+}
+.Replay {
+  display: inline;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 19px;
+  margin: 25px;
+  letter-spacing: 2px;
+}
+.reset-score {
+  display: inline;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 19px;
+  margin: 25px;
+  letter-spacing: 2px;
+}
+.clearScore-conform {
+  color: white;
+  font-size: 19px;
+  margin:25px;
+}
+.conform {
+  background-color: white;
+  color: rgb(108, 175, 242);
+  font-weight: 400;
+  border: solid rgb(108, 175, 242) 1px;
+  border-radius: 8px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  margin: 25px;
+  letter-spacing: 2px;
+}
+.changeTheme-replay {
+  background-color: white;
+  color: rgb(108, 175, 242);
+  font-weight: 400;
+  border: solid rgb(108, 175, 242) 1px;
+}
+.choices {
+  width: 50px;
+}
+.display-choices {
+  color: white;
+  font-size: 25px;
+  margin: 25px;
+}
+
+@media (min-width:0px) and (max-width:550px){
+.rock-button,
+.paper-button,
+.scissors-button{
+  height:90px;
+  width:90px;
+  margin:15px;
+}
+.images{
+  width:55px;
+}
+.title{
+  font-size:28px;
+}
+.Replay,.reset-score{
+  font-size: 14px;
+}
+.score-display{
+  font-size: 25px;
+}
+.display-result{
+  font-size: 25px;
+}
+}
