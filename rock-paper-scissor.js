@@ -72,7 +72,7 @@ function playGame(playerMove) {
   setScore(score);
 
   const choiceElem = document.querySelector(".display-choices");
-  choiceElem.innerHTML = `You : <img class = "choices" src = "/${playerMove}.png"> Computer : <img class = "choices" src = "/${computerMove}.png">`;
+  choiceElem.innerHTML = `You : <img class = "choices" src = "${playerMove}.png"> Computer : <img class = "choices" src = "${computerMove}.png">`;
 }
 function scoreDisplay() {
   document.querySelector(
